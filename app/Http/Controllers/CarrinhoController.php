@@ -37,9 +37,7 @@ public function adicionaCarrinho(Request $request) {
     ]);
 
     return redirect()->route('site.carrinho')->with('sucesso', 'Produto adicionado no carrinho com sucesso');
-}
-
-    
+}    
 
     
 
